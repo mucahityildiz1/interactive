@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <script src="/assets/js/interactive.js" defer></script>
+</head>
+
+<body>
+  <div class="container bg">
+    <div class="header">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sing-up for our 30 day trial, No credit card required</p>
+      <img src="/assets/images/bg.png" alt="">
+    </div>
+    <div class="pageviews">
+      <div class="money">
+        <div>
+          <h2><span id="pageViews">100</span>K PAGEVIEWS</h2>
+        </div>
+        <div class="month">
+          <p> $ <span id="pricing">16</span>.00<span class="monthly" id="billingPeriod">/ month</span></p>
+        </div>
+      </div>
+      <div class="page-line">
+        <input class="line" type="range" min="1" max="32" value="16" id="rangeInput">
+      </div>
+      <div class="billing">
+        <span>Monthly Billing <input type="checkbox" id="billingType"> Yearly Billing <span
+            class="percentage">-25%</span></span>
+      </div>
+      <div class="link">
+        <a href="#"><input type="checkbox">Unlimited websites</a>
+        <a href="#"><input type="checkbox">100% data ownership</a>
+        <a href="#"><input type="checkbox">Email reports</a>
+      </div>
+      <div class="start">
+        <button>Start my trial</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
